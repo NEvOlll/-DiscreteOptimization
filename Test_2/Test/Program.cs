@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using GraphLibrary;
 using GraphLibrary.Graph;
+using GraphLibrary.ShortestPathSearcher;
 
 namespace Test
 {
