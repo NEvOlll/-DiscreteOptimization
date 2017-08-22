@@ -1,12 +1,16 @@
-﻿using GraphLibrary.Graph;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using GraphLibrary.Graph;
 using GraphLibrary.ShortestPathSearcher;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Linq;
 
 namespace GraphLibrary.Test.Unit
 {
     [TestClass]
-    public class ShortestPathSearcherTests
+    public class DijkstraShortestPathSearcherTests
     {
         [TestMethod]
         public void CorrectSearchShortestPath()
@@ -61,14 +65,14 @@ namespace GraphLibrary.Test.Unit
             var edge256 = new Edge<int>(2, 5, 6);
             graphForSPS.AddEdgeWithVerticesFromV1ToV2(edge256);
             var edge32n3 = new Edge<int>(3, 2, -3);
-            graphForSPS.AddEdgeWithVerticesFromV1ToV2(edge32n3);            
+            graphForSPS.AddEdgeWithVerticesFromV1ToV2(edge32n3);
             var edge35n1 = new Edge<int>(3, 5, -1);
             graphForSPS.AddEdgeWithVerticesFromV1ToV2(edge35n1);
             var edge454 = new Edge<int>(4, 5, 4);
             graphForSPS.AddEdgeWithVerticesFromV1ToV2(edge454);
             var edge54n2 = new Edge<int>(5, 4, -2);
             graphForSPS.AddEdgeWithVerticesFromV1ToV2(edge54n2);
-            var sps = new FordBellmanShortestPathSearcher<int>(graphForSPS);
+            var sps = new DijkstraShortestPathSearcher<int>(graphForSPS);
 
             var sp = sps.GetShortestPathBetween(1, 5);
 

@@ -1,11 +1,11 @@
-﻿using GraphLibrary.Graph;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using GraphLibrary.Graph;
 
-namespace GraphLibrary
+namespace GraphLibrary.ShortestPathSearcher
 {
-    public class DijkstraShortestPathSearcher<T>
+    public class DijkstraShortestPathSearcher<T> : IShortestPathSearcher<T>
     {
         private readonly IGraph<T> _graph;
         private readonly IList<T> _vertices;
@@ -23,22 +23,27 @@ namespace GraphLibrary
             var startVertex = vertexId1;
             var countOfVertices = _graph.GetCountOfVertices();
             _distances = _vertices.ToDictionary(v => v, v => _graph.GetDistanceBetweenVertices(startVertex, v));
-
             var path = _distances
                 .Where(x => x.Value.HasValue)
                 .ToDictionary(v => v.Key, v => startVertex);
-
             _vertices.Remove(startVertex);
 
             for (int i = 0; i < countOfVertices-1; i++)
             {
-                var newVertex = GetVertexWithShortestPath(_vertices);
-                _vertices.Remove(newVertex);
+                var chosenVertex = GetVertexWithShortestPath(_vertices);
+                _vertices.Remove(chosenVertex);
                 foreach(var currentVertex in _vertices)
                 {
-                    if(_distances[newVertex] + _graph.GetDistanceBetweenVertices(newVertex, currentVertex) < _distances[currentVertex])
+                    var dist = _graph.GetDistanceBetweenVertices(chosenVertex, currentVertex);
+                    //если в текущую вершину нельзя попасть из выбранной, то переходим к следующей
+                    if (!dist.HasValue)
+                        continue;
+                    
+                    if(!_distances[currentVertex].HasValue 
+                        || (_distances[chosenVertex] + dist.Value)< _distances[currentVertex])
                     {
-                        _distances[currentVertex] = _distances[newVertex] + _graph.GetDistanceBetweenVertices(newVertex, currentVertex);
+                        _distances[currentVertex] = _distances[chosenVertex] + dist.Value;
+                        path[currentVertex] = chosenVertex;
                     }
                 }
             }

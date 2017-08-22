@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using GraphLibrary.Graph;
 
-namespace GraphLibrary
+namespace GraphLibrary.ShortestPathSearcher
 {
-    public class FordBellmanShortestPathSearcher<T>
+    public class FordBellmanShortestPathSearcher<T> : IShortestPathSearcher<T>
     {
         private readonly IGraph<T> _graph;
         //важно что бы граф не содержал отрицательных контуров (контуров сумма ребер которых < 0)

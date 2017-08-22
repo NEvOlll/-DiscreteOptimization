@@ -50,6 +50,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="DijkstraShortestPathSearcherTests.cs" />
     <Compile Include="MinimumSpanningTreeSearchTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShortestPathSearcherTests.cs" />

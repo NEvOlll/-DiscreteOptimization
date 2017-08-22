@@ -41,7 +41,7 @@
   <ItemGroup>
     <Compile Include="BreadthFirstSearch.cs" />
     <Compile Include="DeepFirstSearch.cs" />
-    <Compile Include="DijkstraShortestPathSearcher.cs" />
+    <Compile Include="ShortestPathSearcher\DijkstraShortestPathSearcher.cs" />
     <Compile Include="EulerianPathSearch.cs" />
     <Compile Include="Graph\BaseGraph.cs" />
     <Compile Include="Graph\DirectedGraph.cs" />
@@ -50,9 +50,10 @@
     <Compile Include="Graph\IDirectedGraph.cs" />
     <Compile Include="Graph\IGraph.cs" />
     <Compile Include="Graph\ISimpleGraph.cs" />
+    <Compile Include="ShortestPathSearcher\IShortestPathSearcher.cs" />
     <Compile Include="MinimumSpanningTreeSearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FordBellmanShortestPathSearcher.cs" />
+    <Compile Include="ShortestPathSearcher\FordBellmanShortestPathSearcher.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
