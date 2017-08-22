@@ -301,3 +301,4 @@ __pycache__/
 *.txt
 *.suo
 *.exe
+*.vshost.exe
