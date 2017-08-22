@@ -1,0 +1,8 @@
+C:\source\Test\Test\bin\Debug\Test.exe.config
+C:\source\Test\Test\bin\Debug\Test.exe
+C:\source\Test\Test\bin\Debug\Test.pdb
+C:\source\Test\Test\bin\Debug\GraphLibrary.dll
+C:\source\Test\Test\bin\Debug\GraphLibrary.pdb
+C:\source\Test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\source\Test\Test\obj\Debug\Test.exe
+C:\source\Test\Test\obj\Debug\Test.pdb

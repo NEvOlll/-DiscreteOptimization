@@ -1,0 +1,5 @@
+C:\source\Test\GraphLibrary\bin\Debug\GraphLibrary.dll
+C:\source\Test\GraphLibrary\bin\Debug\GraphLibrary.pdb
+C:\source\Test\GraphLibrary\obj\Debug\GraphLibrary.csprojResolveAssemblyReference.cache
+C:\source\Test\GraphLibrary\obj\Debug\GraphLibrary.dll
+C:\source\Test\GraphLibrary\obj\Debug\GraphLibrary.pdb

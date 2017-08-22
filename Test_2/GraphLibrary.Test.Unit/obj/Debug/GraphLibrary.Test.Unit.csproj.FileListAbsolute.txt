@@ -1,0 +1,7 @@
+C:\source\Test\GraphLibrary.Test.Unit\bin\Debug\GraphLibrary.Test.Unit.dll
+C:\source\Test\GraphLibrary.Test.Unit\bin\Debug\GraphLibrary.Test.Unit.pdb
+C:\source\Test\GraphLibrary.Test.Unit\bin\Debug\GraphLibrary.dll
+C:\source\Test\GraphLibrary.Test.Unit\bin\Debug\GraphLibrary.pdb
+C:\source\Test\GraphLibrary.Test.Unit\obj\Debug\GraphLibrary.Test.Unit.csprojResolveAssemblyReference.cache
+C:\source\Test\GraphLibrary.Test.Unit\obj\Debug\GraphLibrary.Test.Unit.dll
+C:\source\Test\GraphLibrary.Test.Unit\obj\Debug\GraphLibrary.Test.Unit.pdb
