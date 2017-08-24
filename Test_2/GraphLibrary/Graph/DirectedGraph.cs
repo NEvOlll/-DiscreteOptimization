@@ -49,6 +49,11 @@ namespace GraphLibrary.Graph
                 Relations.Add(vertexId1, new Dictionary<T, float>());
             if (!Relations.ContainsKey(vertexId2))
                 Relations.Add(vertexId2, new Dictionary<T, float>());
+
+            if (!_inputEdgesOfVertex.ContainsKey(vertexId1))
+                _inputEdgesOfVertex.Add(vertexId1, new List<Edge<T>>());
+            if (!_inputEdgesOfVertex.ContainsKey(vertexId2))
+                _inputEdgesOfVertex.Add(vertexId2, new List<Edge<T>>());
         }
 
         private void EdgeAppendant(Edge<T> newEdge)
@@ -58,14 +63,19 @@ namespace GraphLibrary.Graph
             //добавляем в список исходящих связей, ссылку из вершины 1 на вершину 2
             Relations[newEdge.Vertex1].Add(newEdge.Vertex2, newEdge.Weight);
             //обновляем список входящих связей в вершину 2
-            if (!_inputEdgesOfVertex.ContainsKey(newEdge.Vertex2))
-                _inputEdgesOfVertex.Add(newEdge.Vertex2, new List<Edge<T>>());
             _inputEdgesOfVertex[newEdge.Vertex2].Add(newEdge);
         }
 
         public IEnumerable<Edge<T>> GetInputEdges(T vertexId)
         {
             return _inputEdgesOfVertex[vertexId];
+        }
+
+        public override void AddVertexWithId(T vertexId)
+        {
+            if (!_inputEdgesOfVertex.ContainsKey(vertexId))
+                _inputEdgesOfVertex.Add(vertexId, new List<Edge<T>>());
+            base.AddVertexWithId(vertexId);
         }
     }
 }

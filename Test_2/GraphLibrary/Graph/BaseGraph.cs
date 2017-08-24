@@ -15,7 +15,7 @@ namespace GraphLibrary.Graph
             Edges= new List<Edge<T>>();
         }
 
-        public void AddVertexWithId(T id)
+        public virtual void AddVertexWithId(T id)
         {
             Relations.Add(id, new Dictionary<T, float>());
         }
