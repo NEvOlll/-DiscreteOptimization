@@ -9,7 +9,7 @@ namespace GraphLibrary.ShortestPathSearcher
     {
         private readonly IGraph<T> _graph;
         private readonly IList<T> _vertices;
-        private IDictionary<T, int?> _distances;
+        private IDictionary<T, float?> _distances;
         public DijkstraShortestPathSearcher(IGraph<T> graph)
         {
             if (graph == null)
@@ -22,7 +22,7 @@ namespace GraphLibrary.ShortestPathSearcher
         {
             var startVertex = vertexId1;
             var countOfVertices = _graph.GetCountOfVertices();
-            _distances = _vertices.ToDictionary(v => v, v => _graph.GetDistanceBetweenVertices(startVertex, v));
+            _distances = _vertices.ToDictionary(v => v, v => _graph.GetWeightOfEdge(startVertex, v));
             var path = _distances
                 .Where(x => x.Value.HasValue)
                 .ToDictionary(v => v.Key, v => startVertex);
@@ -34,7 +34,7 @@ namespace GraphLibrary.ShortestPathSearcher
                 _vertices.Remove(chosenVertex);
                 foreach(var currentVertex in _vertices)
                 {
-                    var dist = _graph.GetDistanceBetweenVertices(chosenVertex, currentVertex);
+                    var dist = _graph.GetWeightOfEdge(chosenVertex, currentVertex);
                     //если в текущую вершину нельзя попасть из выбранной, то переходим к следующей
                     if (!dist.HasValue)
                         continue;

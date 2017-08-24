@@ -21,7 +21,7 @@ namespace GraphLibrary.ShortestPathSearcher
             var startVertex = vertexId1;
             var countOfVertices = _graph.GetCountOfVertices();
             var vertices = _graph.GetVertices().ToList();
-            var distances = vertices.ToDictionary(v => v, v => _graph.GetDistanceBetweenVertices(startVertex, v));
+            var distances = vertices.ToDictionary(v => v, v => _graph.GetWeightOfEdge(startVertex, v));
 
             var path = distances
                 .Where(x => x.Value.HasValue)
@@ -40,7 +40,7 @@ namespace GraphLibrary.ShortestPathSearcher
                         if (!distances[currentVertex].HasValue)
                             continue;
                         //если от обвноляемой вершины до текущей нет ребра, то и новый путь мы не сможем посчитать
-                        var dist = _graph.GetDistanceBetweenVertices(currentVertex, updatingVertex);
+                        var dist = _graph.GetWeightOfEdge(currentVertex, updatingVertex);
                         if(!dist.HasValue)
                             continue;
                         //если у обновляемой вершины нет пути от стартовой или новый путь короче, то мы обновляем путь

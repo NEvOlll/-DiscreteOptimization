@@ -6,7 +6,7 @@ using System.Linq;
 namespace GraphLibrary.Test.Unit
 {
     [TestClass]
-    public class ShortestPathSearcherTests
+    public class FordBellmanShortestPathSearcherTests
     {
         [TestMethod]
         public void CorrectSearchShortestPath()

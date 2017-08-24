@@ -1,5 +1,6 @@
 ﻿using System;
 using GraphLibrary.Graph;
+using GraphLibrary.ThreeSearcher;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace GraphLibrary.Test.Unit

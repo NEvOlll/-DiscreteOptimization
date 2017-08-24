@@ -6,3 +6,22 @@ C:\source\Test\Test\bin\Debug\GraphLibrary.pdb
 C:\source\Test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
 C:\source\Test\Test\obj\Debug\Test.exe
 C:\source\Test\Test\obj\Debug\Test.pdb
+C:\GitHub\-DiscreteOptimization\Test_2\Test\bin\Debug\Test.exe.config
+C:\GitHub\-DiscreteOptimization\Test_2\Test\bin\Debug\Test.exe
+C:\GitHub\-DiscreteOptimization\Test_2\Test\bin\Debug\Test.pdb
+C:\GitHub\-DiscreteOptimization\Test_2\Test\bin\Debug\GraphLibrary.dll
+C:\GitHub\-DiscreteOptimization\Test_2\Test\bin\Debug\GraphLibrary.pdb
+C:\GitHub\-DiscreteOptimization\Test_2\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\GitHub\-DiscreteOptimization\Test_2\Test\obj\Debug\Test.exe
+C:\GitHub\-DiscreteOptimization\Test_2\Test\obj\Debug\Test.pdb
+F:\инст - п.и\дипломный проект\Test_3\Test\bin\Debug\Test.exe.config
+F:\инст - п.и\дипломный проект\Test_3\Test\bin\Debug\Test.exe
+F:\инст - п.и\дипломный проект\Test_3\Test\bin\Debug\Test.pdb
+F:\инст - п.и\дипломный проект\Test_3\Test\bin\Debug\GraphLibrary.dll
+F:\инст - п.и\дипломный проект\Test_3\Test\bin\Debug\GraphLibrary.pdb
+F:\инст - п.и\дипломный проект\Test_3\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+F:\инст - п.и\дипломный проект\Test_3\Test\obj\Debug\Test.exe
+F:\инст - п.и\дипломный проект\Test_3\Test\obj\Debug\Test.pdb
+E:\инст - п.и\дипломный проект\Test_3\Test\bin\Debug\Test.exe.config
+E:\инст - п.и\дипломный проект\Test_3\Test\obj\Debug\Test.exe
+E:\инст - п.и\дипломный проект\Test_3\Test\obj\Debug\Test.pdb

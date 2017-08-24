@@ -12,10 +12,10 @@ namespace GraphLibrary.Graph
         IEnumerable<T> GetRelatedVertices(T id);
 
         bool IsContainsEdge(Edge<T> edge);
-
+        
         int GetCountOfVertices();
         int GetCountOfEdges();
 
-        int? GetDistanceBetweenVertices(T vertexId1, T vertexId2);
+        float? GetWeightOfEdge(T vertexId1, T vertexId2);
     }
 }

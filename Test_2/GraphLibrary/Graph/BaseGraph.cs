@@ -6,18 +6,18 @@ namespace GraphLibrary.Graph
 {
     public class BaseGraph<T>: IGraph<T>
     {
-        protected readonly Dictionary<T, Dictionary<T, int>> Relations;
+        protected readonly Dictionary<T, Dictionary<T, float>> Relations;
         protected readonly List<Edge<T>> Edges;
 
         protected BaseGraph()
         {
-            Relations = new Dictionary<T, Dictionary<T, int>>();
+            Relations = new Dictionary<T, Dictionary<T, float>>();
             Edges= new List<Edge<T>>();
         }
 
         public void AddVertexWithId(T id)
         {
-            Relations.Add(id, new Dictionary<T, int>());
+            Relations.Add(id, new Dictionary<T, float>());
         }
 
         public IEnumerable<T> GetVertices()
@@ -50,7 +50,7 @@ namespace GraphLibrary.Graph
             return Edges.Count;
         }
 
-        public int? GetDistanceBetweenVertices(T vertexId1, T vertexId2)
+        public float? GetWeightOfEdge(T vertexId1, T vertexId2)
         {
             if (vertexId1.Equals(vertexId2))
                 return 0;

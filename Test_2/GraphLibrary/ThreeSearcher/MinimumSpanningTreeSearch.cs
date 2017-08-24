@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using GraphLibrary.Graph;
 
-namespace GraphLibrary
+namespace GraphLibrary.ThreeSearcher
 {
     public class MinimumSpanningTreeSearch<T>
     {

@@ -3,3 +3,13 @@ C:\source\Test\GraphLibrary\bin\Debug\GraphLibrary.pdb
 C:\source\Test\GraphLibrary\obj\Debug\GraphLibrary.csprojResolveAssemblyReference.cache
 C:\source\Test\GraphLibrary\obj\Debug\GraphLibrary.dll
 C:\source\Test\GraphLibrary\obj\Debug\GraphLibrary.pdb
+C:\GitHub\-DiscreteOptimization\Test_2\GraphLibrary\bin\Debug\GraphLibrary.dll
+C:\GitHub\-DiscreteOptimization\Test_2\GraphLibrary\bin\Debug\GraphLibrary.pdb
+C:\GitHub\-DiscreteOptimization\Test_2\GraphLibrary\obj\Debug\GraphLibrary.dll
+C:\GitHub\-DiscreteOptimization\Test_2\GraphLibrary\obj\Debug\GraphLibrary.pdb
+F:\инст - п.и\дипломный проект\Test_3\GraphLibrary\bin\Debug\GraphLibrary.dll
+F:\инст - п.и\дипломный проект\Test_3\GraphLibrary\bin\Debug\GraphLibrary.pdb
+F:\инст - п.и\дипломный проект\Test_3\GraphLibrary\obj\Debug\GraphLibrary.csprojResolveAssemblyReference.cache
+F:\инст - п.и\дипломный проект\Test_3\GraphLibrary\obj\Debug\GraphLibrary.dll
+F:\инст - п.и\дипломный проект\Test_3\GraphLibrary\obj\Debug\GraphLibrary.pdb
+C:\GitHub\-DiscreteOptimization\Test_2\GraphLibrary\obj\Debug\GraphLibrary.csprojResolveAssemblyReference.cache

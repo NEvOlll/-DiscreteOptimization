@@ -5,3 +5,17 @@ C:\source\Test\GraphLibrary.Test.Unit\bin\Debug\GraphLibrary.pdb
 C:\source\Test\GraphLibrary.Test.Unit\obj\Debug\GraphLibrary.Test.Unit.csprojResolveAssemblyReference.cache
 C:\source\Test\GraphLibrary.Test.Unit\obj\Debug\GraphLibrary.Test.Unit.dll
 C:\source\Test\GraphLibrary.Test.Unit\obj\Debug\GraphLibrary.Test.Unit.pdb
+C:\GitHub\-DiscreteOptimization\Test_2\GraphLibrary.Test.Unit\bin\Debug\GraphLibrary.Test.Unit.dll
+C:\GitHub\-DiscreteOptimization\Test_2\GraphLibrary.Test.Unit\bin\Debug\GraphLibrary.Test.Unit.pdb
+C:\GitHub\-DiscreteOptimization\Test_2\GraphLibrary.Test.Unit\bin\Debug\GraphLibrary.dll
+C:\GitHub\-DiscreteOptimization\Test_2\GraphLibrary.Test.Unit\bin\Debug\GraphLibrary.pdb
+C:\GitHub\-DiscreteOptimization\Test_2\GraphLibrary.Test.Unit\obj\Debug\GraphLibrary.Test.Unit.csprojResolveAssemblyReference.cache
+C:\GitHub\-DiscreteOptimization\Test_2\GraphLibrary.Test.Unit\obj\Debug\GraphLibrary.Test.Unit.dll
+C:\GitHub\-DiscreteOptimization\Test_2\GraphLibrary.Test.Unit\obj\Debug\GraphLibrary.Test.Unit.pdb
+F:\инст - п.и\дипломный проект\Test_3\GraphLibrary.Test.Unit\bin\Debug\GraphLibrary.Test.Unit.dll
+F:\инст - п.и\дипломный проект\Test_3\GraphLibrary.Test.Unit\bin\Debug\GraphLibrary.Test.Unit.pdb
+F:\инст - п.и\дипломный проект\Test_3\GraphLibrary.Test.Unit\bin\Debug\GraphLibrary.dll
+F:\инст - п.и\дипломный проект\Test_3\GraphLibrary.Test.Unit\bin\Debug\GraphLibrary.pdb
+F:\инст - п.и\дипломный проект\Test_3\GraphLibrary.Test.Unit\obj\Debug\GraphLibrary.Test.Unit.csprojResolveAssemblyReference.cache
+F:\инст - п.и\дипломный проект\Test_3\GraphLibrary.Test.Unit\obj\Debug\GraphLibrary.Test.Unit.dll
+F:\инст - п.и\дипломный проект\Test_3\GraphLibrary.Test.Unit\obj\Debug\GraphLibrary.Test.Unit.pdb

@@ -5,11 +5,11 @@ using GraphLibrary.Graph;
 
 namespace GraphLibrary
 {
-    public class EulerianPathSearch<T>
+    public class EulerianPathSearcher<T>
     {
         private readonly Dictionary<T, List<T>> _relations;
         
-        public EulerianPathSearch(IGraph<T> graph)
+        public EulerianPathSearcher(IGraph<T> graph)
         {
             if (graph == null)
                 throw new ArgumentNullException("graph");            

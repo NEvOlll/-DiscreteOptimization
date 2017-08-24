@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using GraphLibrary;
 using GraphLibrary.Graph;
 using GraphLibrary.ShortestPathSearcher;
+using GraphLibrary.ThreeSearcher;
 
 namespace Test
 {
@@ -30,13 +31,13 @@ namespace Test
             myGraph.AddEdgeWithVertices(7, 9);
             myGraph.AddEdgeWithVertices(8, 9);
 
-            var dfs = new DeepFirstSearch<int>(myGraph);
-            var dThree = dfs.GetDThree(1);
+            var dfs = new DeepFirstSearcher<int>(myGraph);
+            var dThree = dfs.GetThreeFromVertex(1);
 
             var bfs = new BreadthFirstSearch<int>(myGraph);
-            var bThree = bfs.GetBThree(1);
+            var bThree = bfs.GetThreeFromVertex(1);
 
-            var eps = new EulerianPathSearch<int>(myGraph);
+            var eps = new EulerianPathSearcher<int>(myGraph);
             var ep = eps.GetPath();
 
             //2-4-6
