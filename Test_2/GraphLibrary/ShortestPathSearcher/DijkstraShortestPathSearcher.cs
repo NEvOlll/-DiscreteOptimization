@@ -5,6 +5,10 @@ using GraphLibrary.Graph;
 
 namespace GraphLibrary.ShortestPathSearcher
 {
+    /// <summary>
+    /// Применим в случае неотрицательных весов
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class DijkstraShortestPathSearcher<T> : IShortestPathSearcher<T>
     {
         private readonly IGraph<T> _graph;

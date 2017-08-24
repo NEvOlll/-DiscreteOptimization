@@ -5,6 +5,10 @@ using GraphLibrary.Graph;
 
 namespace GraphLibrary.ShortestPathSearcher
 {
+    /// <summary>
+    /// Подходит для сетей не содержащит отрицательные контуры (контуры, сумма всеов которых < 0)
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class FordBellmanShortestPathSearcher<T> : IShortestPathSearcher<T>
     {
         private readonly IGraph<T> _graph;
